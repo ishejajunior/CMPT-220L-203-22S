@@ -33,3 +33,8 @@ public class drycode {
         System.out.println("The total tips are:"+current_tips+"$");
     }
 }
+//# How my turned my code from wet to dry.(markdown assignment)
+
+//I turned my code from wet to **dry using for loops and lists** 
+//since they were four main objects all over the wet code i then decised to use them as 
+//a list and then added the ellements of the array using the **for loop**
