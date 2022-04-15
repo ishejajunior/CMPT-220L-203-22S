@@ -1,6 +1,5 @@
 package base;
 
-
 public class Listitem {
     public int listitem1;// This is a normal Variable
     public Listitem listitem2;//this is an object that chains the list
