@@ -15,6 +15,6 @@ public class project{
         treenode first= new treenode(1);
         treenode second=new treenode(2);
         treenode third=new treenode(3);
-        
+
     }
 }
