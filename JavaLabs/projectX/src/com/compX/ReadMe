@@ -1,0 +1,35 @@
+# Main Class
+
+The main class is used to Input and output in this app. At first I created an object a using the Binary_Tree_Creation class,
+I then initialised a variable called root to null. After that i started inserting nodes, I inserted a total of 8 nodes.
+i then started to output where i made an output of the Inorder, preeorder and postorder, i made an output of the maximum
+ and minimum value, the output of breadth and the and the depth search and lastly the zth number
+
+
+
+# Node class
+
+The node class is to make a tree format,
+it has the root Node declared as data and then left and right nodes.
+
+## Delete class
+
+This class helps to delete the entered Node. The logic behind its code is, the function first if the tree is not empty
+and then after making sure that the tree is not empty it sets a condition too see if the number entered is either bigger
+ or less than the node, if it is less the function will search in the left of the tree and if its greater it will go right
+  thus saving time, after finding the number it will delete it and find an inorder succesor.
+  the Getsuccesor function will help us to get the best fit succesor.
+
+## Binary_Tree_Creation Class
+
+**INSERT method** this method helps us to insert nodes,
+it first of all checks if the tree is empty if it is it sends the user to create a new tree.
+ If the tree is not empty then it checks if the node entered is either greater or lower than the node,
+ the smaller nodes go to the left and the greater ones go to the right.
+ **CreateNewNode** this function helps us to create a new tree by creating an object called a and the Root node is
+ assigned  to variable K and the right and left are initialised to null.**Inorder**this function displays the tree from
+  the left to root then to right.**preorder**this function displays the tree from the root to left then to right.
+  **postorder**this function displays the tree from the left to right then to root.**get_max**this function returns the
+ maximum value,**get_min**this function returns the minimum value, **breadth_Search** this function turns the tree in a
+ queue and starts to enter the numbers from root then it displays the numbers from left to right but following their
+ levels on the tree. **depth_search**this function basically displays like an Inorder function.
